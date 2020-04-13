@@ -1,0 +1,18 @@
+name: declension
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - gensim
+  - tqdm
+  - pylint
+  - pip
+  - pip:
+    - seaborn
+    - ipdb
